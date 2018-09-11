@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_U0Wz0ddyEeeEeOlbgDk1dA" name="pridetext" dataPackage="_U0f9wNdyEeeEeOlbgDk1dA" Server="Localhost 127.0.0.1" FilePath="C:/Users/HJ/Desktop/pride.txt" Format="WINDOWS" Encoding="US-ASCII" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_U0f9wNdyEeeEeOlbgDk1dA" name="default" dataManager="_U0Wz0ddyEeeEeOlbgDk1dA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_U0f9wddyEeeEeOlbgDk1dA" id="_LaycYNdyEeeEeOlbgDk1dA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_U0f9wtdyEeeEeOlbgDk1dA" label="Column0" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
